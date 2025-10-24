@@ -1,106 +1,101 @@
 <resources>
 
 
-    <!-- New Untranslated -->
+    
+    <!-- New Untranslated (Tradotto in Italiano) -->
 
-<string name="obd_view_speed">VELOCITÀ</string>
+    <string name="obd_view_speed">VELOCITÀ</string>
 
-<string name="gpx_manager_routes">Percorsi</string>
+    <string name="gpx_manager_routes">Percorsi</string>
+    <string name="gpx_manager_no_routes_warning">Il file GPX selezionato non contiene percorsi!</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Naviga a Inizio / Fine</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Naviga al Punto più Vicino</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Imposta Profilo</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Inverti Direzione</string>
 
-<string name="gpx_manager_no_routes_warning">Il file GPX selezionato non contiene alcun percorso!</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Sensori Pressione Pneumatici</string>
+    <string name="home_widget_tpms_description">Monitora la pressione e la temperatura dei pneumatici con DMD TPMS</string>
 
-<string name="gpx_manager_track_manager_navigate_to_start_end2">Naviga a Inizio / Fine</string>
+    <string name="tpms_rear_sensor_title">Pneumatico Posteriore</string>
+    <string name="tpms_front_sensor_title">Pneumatico Anteriore</string>
+    <string name="tpms_sensor_select">Non Configurato</string>
+    <string name="tpms_sensor_tap_to_start">Tocca per Configurare</string>
+    <string name="tpms_sensor_dialog_select_sensor">Seleziona Sensore</string>
+    <string name="tpms_sensor_dialog_select">Seleziona</string>
 
-<string name="gpx_manager_track_manager_convert_to_route2">Naviga al Punto Più Vicino</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Mostra Pulsanti di Regolazione sullo Schermo</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Mostrerà un + e un - per regolare manualmente la distanza totale e parziale</string>
 
-<string name="gpx_manager_track_manager_route_change_profile">Imposta Profilo</string>
+    <string name="map_route_planner_instruction_keep_going">Prosegui Dritto</string>
 
-<string name="gpx_manager_advanced_invert_orientation2">Inverti Direzione</string>
-
-<string name="home_widget_tpms_title">TPMS</string>
-<string name="home_widget_tpms_title_long">Sensori Pressione Pneumatici</string>
-<string name="home_widget_tpms_description">Monitora la pressione e la temperatura dei pneumatici con DMD TPMS</string>
-
-<string name="tpms_rear_sensor_title">Pneumatico Posteriore</string>
-<string name="tpms_front_sensor_title">Pneumatico Anteriore</string>
-<string name="tpms_sensor_select">Non Configurato</string>
-<string name="tpms_sensor_tap_to_start">Tocca per Configurare</string>
-<string name="tpms_sensor_dialog_select_sensor">Seleziona Sensore</string>
-<string name="tpms_sensor_dialog_select">Seleziona</string>
-
-<string name="roadbook_settings_show_on_screen_adjust_buttons">Mostra Pulsanti di Regolazione sullo Schermo</string>
-<string name="roadbook_settings_show_on_screen_adjust_buttons_message">Mostrerà un + e - per regolare manualmente la distanza totale e parziale</string>
-
-<string name="map_route_planner_instruction_keep_going">Prosegui Dritto</string>
-
-<!-- GPX Instructions -->
-<string name="map_gpx_real_time_left">Sinistra</string>
-<string name="map_gpx_real_time_right">Destra</string>
-<string name="map_gpx_real_time_in">in</string>
-<string name="map_gpx_real_time_for">per</string>
-<string name="map_gpx_real_time_from_instruction_to_next">a</string>
-<string name="map_gpx_real_time_straight">Dritto</string>
-<string name="map_gpx_real_time_instructions_title">Istruzioni di Svolta</string>
-<string name="map_gpx_real_time_instructions_desc">Analisi e feedback in tempo reale delle svolte per il percorso attivo</string>
-<string name="map_gpx_real_time_instructions_setting">Abilita Istruzioni di Svolta</string>
-<string name="map_gpx_real_time_instructions_setting_voice">Abilita Istruzioni Vocali</string>
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Sinistra</string>
+    <string name="map_gpx_real_time_right">Destra</string>
+    <string name="map_gpx_real_time_in">tra</string>
+    <string name="map_gpx_real_time_for">per</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">a</string>
+    <string name="map_gpx_real_time_straight">Dritto</string>
+    <string name="map_gpx_real_time_instructions_title">Istruzioni di Svolta</string>
+    <string name="map_gpx_real_time_instructions_desc">Analisi e indicazioni di svolta in tempo reale per la traccia attiva</string>
+    <string name="map_gpx_real_time_instructions_setting">Abilita Istruzioni di Svolta</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Abilita Istruzioni Vocali</string>
 
     <!-- Event Mode -->
-<string name="event_mode_waiting_for_start">In attesa dell'inizio dell'evento!</string>
-<string name="event_mode_waiting_for_start_time">Data e ora di inizio:</string>
-<string name="event_mode_waiting_notification_tap_dialog_title">In attesa dell'inizio dell'evento!</string>
-<string name="event_mode_waiting_notification_tap_dialog_message">Hai un evento caricato e stai aspettando l'orario di inizio. Vuoi continuare ad aspettare o chiuderlo?</string>
-<string name="event_mode_waiting_notification_tap_dialog_wait">Aspetta</string>
-<string name="event_mode_waiting_notification_no_internet_title">In attesa della connessione a Internet!</string>
-<string name="event_mode_waiting_notification_no_internet_message">Necessario per convalidare l'inizio dell'evento.</string>
-<string name="event_mode_help_dialog_title">Opzioni di Aiuto Evento</string>
-<string name="event_mode_help_dialog_message">La Tua Posizione</string>
-<string name="event_mode_help_call_1">Chiama #1</string>
-<string name="event_mode_help_call_2">Chiama #2</string>
-<string name="event_mode_downloading">Download Evento in Corso</string>
-<string name="event_mode_downloading_message">Attendere il completamento del download!</string>
+    <string name="event_mode_waiting_for_start">In attesa dell’inizio dell’evento!</string>
+    <string name="event_mode_waiting_for_start_time">Data e ora di inizio:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">In attesa dell’inizio dell’evento!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Hai un evento caricato e stai aspettando l’orario di inizio. Vuoi continuare ad aspettare o chiuderlo?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Attendi</string>
+    <string name="event_mode_waiting_notification_no_internet_title">In attesa della connessione Internet!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Necessaria per convalidare l’inizio dell’evento.</string>
+    <string name="event_mode_help_dialog_title">Opzioni di Aiuto Evento</string>
+    <string name="event_mode_help_dialog_message">La tua Posizione</string>
+    <string name="event_mode_help_call_1">Chiamata #1</string>
+    <string name="event_mode_help_call_2">Chiamata #2</string>
+    <string name="event_mode_downloading">Download dell’Evento</string>
+    <string name="event_mode_downloading_message">Attendere il completamento del download!</string>
 
-<string name="gpx_warnings_setting">Avvisi di Progresso</string>
-<string name="gpx_warnings_setting_desc">Attiva avvisi per deviazione dal percorso e direzione errata.</string>
-<string name="gpx_warning_wrong_direction">Direzione Sbagliata!</string>
-<string name="gpx_warning_turn_around">Inversione di Marcia!</string>
-<string name="gpx_warning_away_from_track">Fuori dal Percorso!</string>
-<string name="gpx_warning_correct_direction">Torna sulla Linea!</string>
-<string name="gpx_warning_show_wrong_direction_option">Mostra Avviso Direzione Sbagliata</string>
-<string name="gpx_warning_show_away_from_track_option">Mostra Avviso Fuori dal Percorso</string>
-<string name="gpx_warning_show_screen_flash">Usa Flash dello Schermo</string>
-<string name="gpx_warning_play_voice_warning">Riproduci Avviso Vocale</string>
+    <string name="gpx_warnings_setting">Avvisi di Progresso</string>
+    <string name="gpx_warnings_setting_desc">Attiva un avviso quando si è fuori traccia o nella direzione sbagliata.</string>
+    <string name="gpx_warning_wrong_direction">Direzione Errata!</string>
+    <string name="gpx_warning_turn_around">Torna Indietro!</string>
+    <string name="gpx_warning_away_from_track">Fuori Traccia!</string>
+    <string name="gpx_warning_correct_direction">Torna sulla Traccia!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Mostra Avviso Direzione Errata</string>
+    <string name="gpx_warning_show_away_from_track_option">Mostra Avviso Fuori Traccia</string>
+    <string name="gpx_warning_show_screen_flash">Usa Flash dello Schermo</string>
+    <string name="gpx_warning_play_voice_warning">Riproduci Avviso Vocale</string>
 
-<string name="gpx_manager_poi_busy_message">Elaborazione POI in corso, riprenderà al termine!</string>
+    <string name="gpx_manager_poi_busy_message">Elaborazione POI in corso, riprenderà al termine!</string>
 
-<string name="gpx_manager_settings_start_end">Mostra Punti di Inizio e Fine del Percorso</string>
+    <string name="gpx_manager_settings_start_end">Mostra Punti Inizio e Fine della Traccia</string>
 
-<string name="settings_dmd_devices_updates_automatic">Controlla automaticamente aggiornamenti dell'app</string>
-<string name="settings_dmd_devices_updates_on_wifi_only">Controlla aggiornamenti solo su Wi-Fi</string>
-<string name="settings_dmd_devices_updates_manual">Controlla aggiornamenti ora!</string>
+    <string name="settings_dmd_devices_updates_automatic">Controlla automaticamente gli aggiornamenti dell’app</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Controlla aggiornamenti solo su Wi-Fi</string>
+    <string name="settings_dmd_devices_updates_manual">Controlla aggiornamenti ora!</string>
 
-<string name="event_mode_warning_dialog_title">Modalità Evento Attiva</string>
-<string name="event_mode_warning_dialog_message">Sei attualmente in Modalità Evento, sei sicuro di volerla interrompere e aprire il nuovo file?</string>
-<string name="event_mode_warning_dialog_close">Chiudi Evento</string>
-<string name="event_mode_warning_dialog_quit_event">Sei sicuro di voler chiudere l'evento? Per riaprirlo dovrai scaricarlo di nuovo dalla stessa fonte.</string>
-<string name="event_mode_warning_dialog_cancel">Annulla</string>
-<string name="event_mode_instrument_locked_by_event">Non puoi modificare questo strumento, è bloccato dalle impostazioni dell'evento!</string>
-<string name="event_mode_roadbook_help_button">Ho bisogno di aiuto!</string>
-<string name="event_mode_roadbook_quit_event">Esci dall'Evento</string>
-<string name="event_mode_roadbook_page">Pagina #</string>
-<string name="event_mode_roadbook_total">Il totale sarà</string>
-<string name="event_mode_loading_event">Caricamento Evento</string>
-<string name="event_mode_cleaning_setting_dirs">Pulizia e configurazione delle directory</string>
-<string name="event_mode_decrypt">Decrittazione del file, questa operazione potrebbe richiedere tempo…</string>
-<string name="event_mode_generating_file">Salvataggio del file decrittato…</string>
-<string name="event_mode_unpacking_file">Estrazione dei file…</string>
-<string name="event_mode_loading_settings">Caricamento di tutti i file e delle impostazioni.</string>
+    <string name="event_mode_warning_dialog_title">Modalità Evento Attiva</string>
+    <string name="event_mode_warning_dialog_message">Sei attualmente in Modalità Evento, sei sicuro di volerla interrompere e aprire un nuovo file?</string>
+    <string name="event_mode_warning_dialog_close">Chiudi Evento</string>
+    <string name="event_mode_warning_dialog_quit_event">Sei sicuro di voler chiudere l’evento? Per riaprirlo dovrai scaricarlo nuovamente dalla stessa fonte.</string>
+    <string name="event_mode_warning_dialog_cancel">Annulla</string>
+    <string name="event_mode_instrument_locked_by_event">Non puoi modificare questo strumento, è bloccato dalle impostazioni dell’evento!</string>
+    <string name="event_mode_roadbook_help_button">Ho bisogno di aiuto!</string>
+    <string name="event_mode_roadbook_quit_event">Esci dall’Evento</string>
+    <string name="event_mode_roadbook_page">Pagina #</string>
+    <string name="event_mode_roadbook_total">Totale sarà</string>
+    <string name="event_mode_loading_event">Caricamento Evento</string>
+    <string name="event_mode_cleaning_setting_dirs">Pulizia e configurazione directory</string>
+    <string name="event_mode_decrypt">Decrittazione file, questa operazione può richiedere tempo…</string>
+    <string name="event_mode_generating_file">Salvataggio file decrittato…</string>
+    <string name="event_mode_unpacking_file">Estrazione file…</string>
+    <string name="event_mode_loading_settings">Caricamento di tutti i file e impostazioni.</string>
 
-<string name="dmd_device_update_dialog_title">Aggiornamento di Sistema Disponibile</string>
-<string name="dmd_device_update_configuration_dialog_message">Nuova configurazione di sistema disponibile. Vuoi aggiornare ora? Se scegli di aggiornare ora, il download inizierà in background e il dispositivo si riavvierà al termine.</string>
-<string name="dmd_device_update_system_dialog_message">Nuovo aggiornamento firmware di sistema disponibile. Vuoi aggiornare ora? Se scegli di aggiornare ora, il download inizierà in background e il dispositivo si riavvierà al termine.</string>
+    <string name="dmd_device_update_dialog_title">Aggiornamento di Sistema Disponibile</string>
+    <string name="dmd_device_update_configuration_dialog_message">È disponibile una nuova configurazione di sistema. Vuoi aggiornare ora? Se scegli di farlo, il download inizierà in background e il dispositivo si riavvierà al termine.</string>
+    <string name="dmd_device_update_system_dialog_message">È disponibile un nuovo aggiornamento firmware del sistema. Vuoi aggiornare ora? Il download avverrà in background e il dispositivo si riavvierà una volta completato.</string>
 
-    <!-- End Of New Untranslated -->
 
 
     <string name="app_name">DMD2</string>
@@ -232,7 +227,7 @@
     <string name="settings_localization_options">Localizzazione</string>
     <string name="settings_hour_format">Usa formato di 24h</string>
     <string name="settings_use_fahrenheit">Usa Fahrenheit al posto di Celsius</string>
-    <string name="settings_use_imperial_units">Use unità di misura imperiale</string>
+    <string name="settings_use_imperial_units">Usa unità di misura imperiale</string>
     <string name="settings_interface_options">Opzioni interfaccia</string>
     <string name="settings_theme_category">Tema</string>
     <string name="settings_color_theme">Colore tema (Scuro/Chiaro):</string>
@@ -330,7 +325,7 @@
     <string name="map_storage_location_cat_title">Archivio</string>
     <string name="map_storage_location_select_title">Impostare l\'archiviazione su scheda SD rimovibile</string>
     <string name="map_storage_location_select_message">Per i file di mappa offline e i file utente.</string>
-    <string name="map_storage_sd_card_missing_error_title">SD Card is Missing!</string>
+    <string name="map_storage_sd_card_missing_error_title">SD Card non presente!</string>
     <string name="map_storage_sd_card_missing_error_message">Manca la SD Card usata in precedenza, re-inserirla!</string>
     <string name="map_storage_sd_card_missing_switch_retry">Riprova</string>
     <string name="map_storage_sd_card_missing_switch_internal">Utilizzare la memoria interna</string>
@@ -617,7 +612,7 @@
         <item>Inverti Colore Carta</item>
         <item>Blocca/Sblocca</item>
         <item>Play/Pausa</item>
-        <item>Show Map</item>
+        <item>Mostra Mappa</item>
         <item>Niente</item>
     </string-array>
     <string name="roadbook_controller_button_up">Tasto Su</string>
